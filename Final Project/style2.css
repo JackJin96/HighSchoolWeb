@@ -1,0 +1,254 @@
+
+body{
+	margin: 0 auto;
+    color:white;
+    text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+/*story 3-11 page*/
+
+#story3-11{
+	background-image: url("images/4.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#story3-11height{
+	height:720px;
+}
+
+#story3-11div{
+	opacity: 0;
+	background-color: rgba(0,0,0,0.56);
+	height:100px;
+	width:100px;
+	transform: translate(600px,200px);
+}
+
+#bare11opacity{
+	opacity: 0;
+	height: 100px;
+}
+
+#bare11{
+	opacity: 0;
+	background-color: rgba(0,0,0,0.56);
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left:500px;
+	top: 125px;
+	transition: left 1s, width 1s, height 1s, border-radius 1s, background-color 1s, opacity 1s;
+}
+
+#bare11:hover #bare11text{
+	opacity: 1;
+	transition: opacity 1s 1s;
+}
+
+#bare11:hover{
+	left: 500px;
+	width: 210px;
+	height: 175px;
+	padding-top: 25px;
+	opacity: 1;
+	border-radius: 200px;
+	background-color: red;
+	transition: left 1s, width 1s, height 1s, border-radius 1s, background-color 1s;
+}
+
+#story3-11words, #bare11text{
+	opacity: 0;
+	font-size: 28px;
+	font-style: italic;
+	font-family: "Gill Sans MT", sans-serif;
+}
+
+#bare11text{
+	font-size: 45px;
+}
+
+/*story 3-12 page*/
+
+#story3-12{
+	background-image: url("images/5.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#story3-12height{
+	height:720px;
+}
+
+#story3-12div{
+	opacity: 0;
+	background-color: rgba(0,0,0,0.56);
+	height:100px;
+	width:100px;
+	transform: translate(500px, 200px);
+}
+
+#bare12{
+	opacity: 0;
+	background-color: rgba(0,0,0,0.56);
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left:600px;
+	top: 400px;
+	transition: left 1s, width 1s, height 1s, border-radius 1s, background-color 1s, opacity 1s;
+}
+
+#bare12:hover #bare12text{
+	opacity: 1;
+	transition: opacity 1s 1s;
+}
+
+#bare12:hover{
+	left: 600px;
+	width: 210px;
+	height: 175px;
+	padding-top: 25px;
+	opacity: 1;
+	border-radius: 200px;
+	background-color: red;
+	transition: left 1s, width 1s, height 1s, border-radius 1s, background-color 1s;
+}
+
+#story3-12words, #bare12text{
+	opacity: 0;
+	font-size: 28px;
+	font-style: italic;
+	font-family: "Gill Sans MT", sans-serif;
+}
+
+#bare12text{
+	font-size: 45px;
+}
+
+/*story 3-21 page*/
+
+#story3-21{
+	background-image: url("images/6.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#story3-21height{
+	height:720px;
+}
+
+#story3-21div{
+	opacity: 0;
+	background-color: rgba(0,0,0,0.56);
+	height:100px;
+	width:100px;
+	transform: translate(800px, 450px);
+}
+
+
+
+#bare21{
+	opacity: 0;
+	background-color: rgba(0,0,0,0.56);
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left:500px;
+	top: 400px;
+	transition: left 1s, top 1s, width 1s, height 1s, border-radius 1s, background-color 1s, opacity 1s;
+}
+
+#bare21:hover #bare21text{
+	opacity: 1;
+	transition: opacity 1s 1s;
+}
+
+#bare21:hover{
+	top:350px;
+	left: 450px;
+	width: 210px;
+	height: 175px;
+	padding-top: 25px;
+	opacity: 1;
+	border-radius: 200px;
+	background-color: red;
+	transition: left 1s, top 1s, width 1s, height 1s, border-radius 1s, background-color 1s;
+}
+
+#story3-21words, #bare21text{
+	opacity: 0;
+	font-size: 28px;
+	font-style: italic;
+	font-family: "Gill Sans MT", sans-serif;
+}
+
+#bare21text{
+	font-size: 45px;
+}
+
+/*story 3-22 page */
+
+#story3-22{
+	background-image: url("images/11.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#story3-22height{
+	height:720px;
+}
+
+#story3-22div{
+	opacity: 0;
+	background-color: rgba(0,0,0,0.56);
+	height:100px;
+	width:100px;
+	transform: translate(400px, 300px);
+}
+
+
+
+#bare22{
+	opacity: 0;
+	background-color: rgba(0,0,0,0.56);
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left:770px;
+	top: 400px;
+	transition: left 1s, top 1s, width 1s, height 1s, border-radius 1s, background-color 1s, opacity 1s;
+}
+
+#bare22:hover #bare22text{
+	opacity: 1;
+	transition: opacity 1s 1s;
+}
+
+#bare22:hover{
+	top:350px;
+	left: 720px;
+	width: 210px;
+	height: 175px;
+	padding-top: 25px;
+	opacity: 1;
+	border-radius: 200px;
+	background-color: red;
+	transition: left 1s, top 1s, width 1s, height 1s, border-radius 1s, background-color 1s;
+}
+
+#story3-22words, #bare22text{
+	opacity: 0;
+	font-size: 28px;
+	font-style: italic;
+	font-family: "Gill Sans MT", sans-serif;
+}
+
+#bare22text{
+	font-size: 45px;
+}

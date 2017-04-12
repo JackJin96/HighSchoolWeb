@@ -1,0 +1,364 @@
+body{
+	margin: 0 auto;
+    color:white;
+    text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+/*first page*/
+
+#area{
+	opacity: 0;
+	background-color: rgba(0,0,0,0.56);
+	height: 635px;
+	margin-right: 850px;
+	margin-left: 25px;
+	padding:50px;
+	padding-top: 100px;
+	font-family: "Copperplate Gothic Light", sans-serif;
+	font-size: 50px;
+	font-weight: 100;
+}
+
+#firstchoice, #secondchoice{
+	font-family: "Segoe UI Light","Segoe WPC","Segoe UI",
+              Helvetica, Arial, "Arial Unicode MS", Sans-Serif;
+	font-size: 35px;
+	font-weight: lighter;
+	border: 1px solid white;
+	width:300px;
+	line-height:100px;
+	color:white;
+	margin: 0 auto;
+	background-color: none;
+	border-radius: 0;
+	transition: background-color 1s, border-radius 1s;
+}
+
+#firstchoice:hover{
+	background-color: #07CBF7;
+	border-radius: 50px;
+}
+
+#secondchoice:hover{
+	background-color:red;
+	border-radius: 50px;
+}
+
+.index{
+	background-image: url("images/first.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+/*comback page*/
+
+.comeback{
+	background-image: url("images/comeback.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#comebackheight{
+	height: 710px;
+}
+
+#comebackopacity{
+	opacity: 0;
+	height:350px;
+	width: 550px;
+	transform: translate(50px,300px);
+}
+
+#comebackwords{
+	background-color: rgba(0,0,0,0.56);
+	height:350px;
+	width: 550px;
+	font-family: "Gill Sans MT", sans-serif;
+	font-style: italic;
+	font-size:30px;
+	border-radius: 0;
+	transition: border-radius 1s;
+}
+
+#comebackwords:hover{
+	border-radius: 200px;
+}
+
+#comebackwords:hover #comebacklink{
+	border-radius: 50px;
+	background-color: #5C313A;
+}
+
+#comebacklink{
+	line-height: 80px;
+	width: 300px;
+	margin-left: 120px;
+	margin-top: 40px;
+	border: solid 2px white;
+	font-size: 50px;
+	transition: border-radius 1s, background-color 1s;
+}
+
+/*story1 page*/
+
+#story1{
+	background-image:url("images/1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#story1height{
+	height: 710px;
+}
+
+#story1div{
+	opacity: 0;
+	background-color: rgba(0,0,0,0.56);
+	height:100px;
+	width:100px;
+	transform: translate(500px,310px);
+}
+
+#story1words, #gotoforesttext, #gotorivertext{
+	opacity: 0;
+	font-size: 30px;
+	font-style: italic;
+	font-family: "Gill Sans MT", sans-serif;
+}
+
+#gotoforest{
+	opacity: 0;
+	background-color: rgba(0,0,0,0.56);
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left:900px;
+	top: 100px;
+	transition: left 1s, width 1s, height 1s, border-radius 1s, opacity 1s;
+}
+
+#gotoforesttext, #gotorivertext{
+	font-size: 33px;
+}
+
+#gotoforest:hover{
+	left: 800px;
+	width: 300px;
+	height: 60px;
+	padding-top: 25px;
+	opacity: 1;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	transition: left 1s, width 1s, height 1s, border-radius 1s;
+}
+
+#gotoforest:hover #gotoforesttext, #gotoriver:hover #gotorivertext{
+	opacity: 1;
+	transition: opacity 1s 1s;
+}
+
+#gotoriver{
+	opacity: 0;
+	background-color: rgba(0,0,0,0.56);
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left:1000px;
+	top: 350px;
+	transition: left 1s, width 1s, height 1s, border-radius 1s, opacity 1s;
+}
+
+#gotoriver:hover{
+	left:900px;
+	width: 300px;
+	height: 60px;
+	padding-top: 25px;
+	opacity: 1;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-top-right-radius: 50px;
+	transition: left 1s, width 1s, height 1s, border-radius 1s;
+
+}
+
+#gotoforestopacity, #gotoriveropacity{
+	opacity: 0;
+	height: 100px;
+}
+
+/*story2-1 page*/
+
+#story2-1{
+	background-image: url("images/2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#story2-1height{
+	height:720px;
+}
+
+#story2-1div{
+	opacity: 0;
+	background-color: rgba(0,0,0,0.56);
+	height:100px;
+	width:100px;
+	transform: translate(600px, 200px);
+}
+
+#gotocliffopacity, #gotovillageopacity{
+	opacity: 0;
+	height: 100px;
+}
+
+#gotocliff{
+	opacity: 0;
+	background-color: rgba(0,0,0,0.56);
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left:390px;
+	top: 300px;
+	transition: left 1s, width 1s, height 1s, border-radius 1s, opacity 1s;
+}
+
+#gotovillage{
+	opacity: 0;
+	background-color: rgba(0,0,0,0.56);
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left:600px;
+	top: 460px;
+	transition: left 1s, width 1s, height 1s, border-radius 1s, opacity 1s;
+}
+
+#gotocliff:hover #gotoclifftext, #gotovillage:hover #gotovillagetext{
+	opacity: 1;
+	transition: opacity 1s 1s;
+}
+
+#gotocliff:hover{
+	left: 300px;
+	width: 300px;
+	height: 60px;
+	padding-top: 25px;
+	opacity: 1;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	transition: left 1s, width 1s, height 1s, border-radius 1s;
+}
+
+#gotovillage:hover{
+	left: 500px;
+	width: 300px;
+	height: 60px;
+	padding-top: 25px;
+	opacity: 1;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-top-right-radius: 50px;
+	transition: left 1s, width 1s, height 1s, border-radius 1s;
+
+}
+
+#story2-1words, #gotoclifftext, #gotovillagetext{
+	opacity: 0;
+	font-size: 27px;
+	font-style: italic;
+	font-family: "Gill Sans MT", sans-serif;
+}
+
+#gotoclifftext, #gotovillagetext{
+	font-size: 33px;
+}
+
+/*story2-2 page*/
+
+#story2-2{
+	background-image: url("images/3.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#story2-2height{
+	height:720px;
+}
+
+#story2-2div{
+	opacity: 0;
+	background-color: rgba(0,0,0,0.56);
+	height:100px;
+	width:100px;
+	transform: translate(600px, 200px);
+}
+
+#gotowonderland{
+	opacity: 0;
+	background-color: rgba(0,0,0,0.56);
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left:290px;
+	top: 100px;
+	transition: left 1s, width 1s, height 1s, border-radius 1s, opacity 1s;
+}
+
+#gotomoon{
+	opacity: 0;
+	background-color: rgba(0,0,0,0.56);
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left:750px;
+	top: 100px;
+	transition: left 1s, width 1s, height 1s, border-radius 1s, opacity 1s;
+}
+
+#gotowonderland:hover #gotowonderlandtext, #gotomoon:hover #gotomoontext{
+	opacity: 1;
+	transition: opacity 1s 1s;
+}
+
+#gotowonderland:hover{
+	left: 200px;
+	width: 400px;
+	height: 60px;
+	padding-top: 25px;
+	opacity: 1;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	transition: left 1s, width 1s, height 1s, border-radius 1s;
+}
+
+#gotomoon:hover{
+	left: 650px;
+	width: 300px;
+	height: 60px;
+	padding-top: 25px;
+	opacity: 1;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-top-right-radius: 50px;
+	transition: left 1s, width 1s, height 1s, border-radius 1s;
+
+}
+
+#story2-2words, #gotowonderlandtext, #gotomoontext{
+	opacity: 0;
+	font-size: 27px;
+	font-style: italic;
+	font-family: "Gill Sans MT", sans-serif;
+}
+
+#gotowonderlandtext, #gotomoontext{
+	font-size: 30px;
+}
